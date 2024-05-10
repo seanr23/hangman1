@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Hangman</title>
+  <link rel="stylesheet" href="hangman.css">
+  <link rel="shortcut icon" href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+</head>
+<body>
+  <main>
+    <h1>Movie Hangman</h1>
+    <h5><a href="https://mitchum.blog/how-to-build-hangman-with-javascript/">Back To Where this came from lmao</a></h5>
+    <div id="gallows">
+	  <img id="hangmanImage" src="https://mitchum.blog/games/hangman/img/hangman0.png">
+    </div>
+    <div id="word"></div>
+    <br>
+    <div id="controls">
+      <input type="text" id="guessBox">
+      <button id="guessWordButton" class="button" onclick="guessWord(game)">Guess Word</button>
+      <button id="newGameButton" class="button" onclick="newGame()">New Game</button>
+      <br>
+      <br>
+      <form action="https://media.tenor.com/CsNs_qiUSnQAAAAe/jk-lol.png">
+        <button class="button">Press this if you want to have TRUE ENLIGHTNMENT.</button>
+      </form>
+    </div>
+    <br>
+    <div id="guesses"></div>
+  </main>   
+  <script src="hangman.js"></script>
+</body>
+</html>
